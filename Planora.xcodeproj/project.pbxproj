@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		836FF1E12FA9BA9C003068CC /* PlanoraCore in Frameworks */ = {isa = PBXBuildFile; productRef = 836FF1E02FA9BA9C003068CC /* PlanoraCore */; };
+		836FF1E32FA9BAAF003068CC /* AIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 836FF1E22FA9BAAF003068CC /* AIKit */; };
+		836FF1E62FA9BACF003068CC /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 836FF1E52FA9BACF003068CC /* CalendarKit */; };
+		836FF1E92FA9BADE003068CC /* PersistenceKit in Frameworks */ = {isa = PBXBuildFile; productRef = 836FF1E82FA9BADE003068CC /* PersistenceKit */; };
+		836FF1EC2FA9BAF2003068CC /* TranscriptionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 836FF1EB2FA9BAF2003068CC /* TranscriptionKit */; };
+		836FF1EF2FA9BB14003068CC /* PlanoraTimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 836FF1EE2FA9BB14003068CC /* PlanoraTimerKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		836FF1782FA99A28003068CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836FF1622FA99A27003068CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836FF1692FA99A27003068CC;
+			remoteInfo = Planora;
+		};
+		836FF1822FA99A28003068CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 836FF1622FA99A27003068CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 836FF1692FA99A27003068CC;
+			remoteInfo = Planora;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		836FF16A2FA99A27003068CC /* Planora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		836FF1772FA99A28003068CC /* PlanoraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanoraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836FF1812FA99A28003068CC /* PlanoraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanoraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		836FF1BC2FA9B6F3003068CC /* AIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AIKit; sourceTree = "<group>"; };
+		836FF1BD2FA9B6F3003068CC /* CalendarKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CalendarKit; sourceTree = "<group>"; };
+		836FF1BE2FA9B6F3003068CC /* PersistenceKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PersistenceKit; sourceTree = "<group>"; };
+		836FF1BF2FA9B6F3003068CC /* PlanoraCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PlanoraCore; sourceTree = "<group>"; };
+		836FF1C02FA9B6F3003068CC /* PlanoraTimerKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PlanoraTimerKit; sourceTree = "<group>"; };
+		836FF1C12FA9B6F3003068CC /* TranscriptionKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = TranscriptionKit; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		836FF16C2FA99A27003068CC /* Planora */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Planora;
+			sourceTree = "<group>";
+		};
+		836FF17A2FA99A28003068CC /* PlanoraTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlanoraTests;
+			sourceTree = "<group>";
+		};
+		836FF1842FA99A28003068CC /* PlanoraUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlanoraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		836FF1672FA99A27003068CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836FF1E12FA9BA9C003068CC /* PlanoraCore in Frameworks */,
+				836FF1E62FA9BACF003068CC /* CalendarKit in Frameworks */,
+				836FF1E32FA9BAAF003068CC /* AIKit in Frameworks */,
+				836FF1EF2FA9BB14003068CC /* PlanoraTimerKit in Frameworks */,
+				836FF1E92FA9BADE003068CC /* PersistenceKit in Frameworks */,
+				836FF1EC2FA9BAF2003068CC /* TranscriptionKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836FF1742FA99A28003068CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836FF17E2FA99A28003068CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		836FF1612FA99A27003068CC = {
+			isa = PBXGroup;
+			children = (
+				836FF16C2FA99A27003068CC /* Planora */,
+				836FF17A2FA99A28003068CC /* PlanoraTests */,
+				836FF1842FA99A28003068CC /* PlanoraUITests */,
+				836FF16B2FA99A27003068CC /* Products */,
+				836FF1C22FA9B6F3003068CC /* Packages */,
+			);
+			sourceTree = "<group>";
+		};
+		836FF16B2FA99A27003068CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				836FF16A2FA99A27003068CC /* Planora.app */,
+				836FF1772FA99A28003068CC /* PlanoraTests.xctest */,
+				836FF1812FA99A28003068CC /* PlanoraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		836FF1C22FA9B6F3003068CC /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				836FF1BF2FA9B6F3003068CC /* PlanoraCore */,
+				836FF1BC2FA9B6F3003068CC /* AIKit */,
+				836FF1BD2FA9B6F3003068CC /* CalendarKit */,
+				836FF1BE2FA9B6F3003068CC /* PersistenceKit */,
+				836FF1C02FA9B6F3003068CC /* PlanoraTimerKit */,
+				836FF1C12FA9B6F3003068CC /* TranscriptionKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		836FF1692FA99A27003068CC /* Planora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836FF18B2FA99A28003068CC /* Build configuration list for PBXNativeTarget "Planora" */;
+			buildPhases = (
+				836FF1662FA99A27003068CC /* Sources */,
+				836FF1672FA99A27003068CC /* Frameworks */,
+				836FF1682FA99A27003068CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				836FF16C2FA99A27003068CC /* Planora */,
+			);
+			name = Planora;
+			packageProductDependencies = (
+				836FF1E02FA9BA9C003068CC /* PlanoraCore */,
+				836FF1E22FA9BAAF003068CC /* AIKit */,
+				836FF1E52FA9BACF003068CC /* CalendarKit */,
+				836FF1E82FA9BADE003068CC /* PersistenceKit */,
+				836FF1EB2FA9BAF2003068CC /* TranscriptionKit */,
+				836FF1EE2FA9BB14003068CC /* PlanoraTimerKit */,
+			);
+			productName = Planora;
+			productReference = 836FF16A2FA99A27003068CC /* Planora.app */;
+			productType = "com.apple.product-type.application";
+		};
+		836FF1762FA99A28003068CC /* PlanoraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836FF18E2FA99A28003068CC /* Build configuration list for PBXNativeTarget "PlanoraTests" */;
+			buildPhases = (
+				836FF1732FA99A28003068CC /* Sources */,
+				836FF1742FA99A28003068CC /* Frameworks */,
+				836FF1752FA99A28003068CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836FF1792FA99A28003068CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				836FF17A2FA99A28003068CC /* PlanoraTests */,
+			);
+			name = PlanoraTests;
+			packageProductDependencies = (
+			);
+			productName = PlanoraTests;
+			productReference = 836FF1772FA99A28003068CC /* PlanoraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		836FF1802FA99A28003068CC /* PlanoraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 836FF1912FA99A28003068CC /* Build configuration list for PBXNativeTarget "PlanoraUITests" */;
+			buildPhases = (
+				836FF17D2FA99A28003068CC /* Sources */,
+				836FF17E2FA99A28003068CC /* Frameworks */,
+				836FF17F2FA99A28003068CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836FF1832FA99A28003068CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				836FF1842FA99A28003068CC /* PlanoraUITests */,
+			);
+			name = PlanoraUITests;
+			packageProductDependencies = (
+			);
+			productName = PlanoraUITests;
+			productReference = 836FF1812FA99A28003068CC /* PlanoraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		836FF1622FA99A27003068CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					836FF1692FA99A27003068CC = {
+						CreatedOnToolsVersion = 26.4;
+						LastSwiftMigration = 2640;
+					};
+					836FF1762FA99A28003068CC = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 836FF1692FA99A27003068CC;
+					};
+					836FF1802FA99A28003068CC = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 836FF1692FA99A27003068CC;
+					};
+				};
+			};
+			buildConfigurationList = 836FF1652FA99A27003068CC /* Build configuration list for PBXProject "Planora" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 836FF1612FA99A27003068CC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				836FF1DF2FA9BA9C003068CC /* XCLocalSwiftPackageReference "Packages/PlanoraCore" */,
+				836FF1E42FA9BACF003068CC /* XCLocalSwiftPackageReference "Packages/CalendarKit" */,
+				836FF1E72FA9BADE003068CC /* XCLocalSwiftPackageReference "Packages/PersistenceKit" */,
+				836FF1EA2FA9BAF2003068CC /* XCLocalSwiftPackageReference "Packages/TranscriptionKit" */,
+				836FF1ED2FA9BB14003068CC /* XCLocalSwiftPackageReference "Packages/PlanoraTimerKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 836FF16B2FA99A27003068CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				836FF1692FA99A27003068CC /* Planora */,
+				836FF1762FA99A28003068CC /* PlanoraTests */,
+				836FF1802FA99A28003068CC /* PlanoraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		836FF1682FA99A27003068CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836FF1752FA99A28003068CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836FF17F2FA99A28003068CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		836FF1662FA99A27003068CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836FF1732FA99A28003068CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		836FF17D2FA99A28003068CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836FF1792FA99A28003068CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836FF1692FA99A27003068CC /* Planora */;
+			targetProxy = 836FF1782FA99A28003068CC /* PBXContainerItemProxy */;
+		};
+		836FF1832FA99A28003068CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 836FF1692FA99A27003068CC /* Planora */;
+			targetProxy = 836FF1822FA99A28003068CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		836FF1892FA99A28003068CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		836FF18A2FA99A28003068CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		836FF18C2FA99A28003068CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Planora;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibek.Planora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		836FF18D2FA99A28003068CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Planora;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibek.Planora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		836FF18F2FA99A28003068CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibek.PlanoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planora";
+			};
+			name = Debug;
+		};
+		836FF1902FA99A28003068CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibek.PlanoraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planora.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Planora";
+			};
+			name = Release;
+		};
+		836FF1922FA99A28003068CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibek.PlanoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planora;
+			};
+			name = Debug;
+		};
+		836FF1932FA99A28003068CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WG3LD6XTTK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bibek.PlanoraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planora;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		836FF1652FA99A27003068CC /* Build configuration list for PBXProject "Planora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836FF1892FA99A28003068CC /* Debug */,
+				836FF18A2FA99A28003068CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836FF18B2FA99A28003068CC /* Build configuration list for PBXNativeTarget "Planora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836FF18C2FA99A28003068CC /* Debug */,
+				836FF18D2FA99A28003068CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836FF18E2FA99A28003068CC /* Build configuration list for PBXNativeTarget "PlanoraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836FF18F2FA99A28003068CC /* Debug */,
+				836FF1902FA99A28003068CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		836FF1912FA99A28003068CC /* Build configuration list for PBXNativeTarget "PlanoraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				836FF1922FA99A28003068CC /* Debug */,
+				836FF1932FA99A28003068CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		836FF1DF2FA9BA9C003068CC /* XCLocalSwiftPackageReference "Packages/PlanoraCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PlanoraCore;
+		};
+		836FF1E42FA9BACF003068CC /* XCLocalSwiftPackageReference "Packages/CalendarKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CalendarKit;
+		};
+		836FF1E72FA9BADE003068CC /* XCLocalSwiftPackageReference "Packages/PersistenceKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PersistenceKit;
+		};
+		836FF1EA2FA9BAF2003068CC /* XCLocalSwiftPackageReference "Packages/TranscriptionKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TranscriptionKit;
+		};
+		836FF1ED2FA9BB14003068CC /* XCLocalSwiftPackageReference "Packages/PlanoraTimerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PlanoraTimerKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		836FF1E02FA9BA9C003068CC /* PlanoraCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PlanoraCore;
+		};
+		836FF1E22FA9BAAF003068CC /* AIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AIKit;
+		};
+		836FF1E52FA9BACF003068CC /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CalendarKit;
+		};
+		836FF1E82FA9BADE003068CC /* PersistenceKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PersistenceKit;
+		};
+		836FF1EB2FA9BAF2003068CC /* TranscriptionKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TranscriptionKit;
+		};
+		836FF1EE2FA9BB14003068CC /* PlanoraTimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PlanoraTimerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 836FF1622FA99A27003068CC /* Project object */;
+}
