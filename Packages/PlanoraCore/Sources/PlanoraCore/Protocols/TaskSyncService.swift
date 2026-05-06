@@ -8,7 +8,6 @@
 import Foundation
 
 public protocol TaskSyncService: Sendable {
-
     // Push confirmed action items to Reminders / Todoist
     func push(actionItems: [ActionItem]) async throws
 }

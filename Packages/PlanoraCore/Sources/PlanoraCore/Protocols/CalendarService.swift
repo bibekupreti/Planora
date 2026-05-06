@@ -8,7 +8,6 @@
 import Foundation
 
 public protocol CalendarService: Sendable {
-
     // Ask the user for calendar permission
     func requestAuthorization() async throws
 

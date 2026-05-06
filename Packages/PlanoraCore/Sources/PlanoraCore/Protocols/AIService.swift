@@ -8,7 +8,6 @@
 import Foundation
 
 public protocol AIService: Sendable {
-
     // Generate a pre-meeting briefing from the meeting + past summaries
     func generateBriefing(
         for meeting: Meeting,

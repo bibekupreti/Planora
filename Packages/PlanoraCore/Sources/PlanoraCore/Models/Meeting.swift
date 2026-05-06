@@ -7,8 +7,6 @@
 
 import Foundation
 
-// public = visible to every package that imports FocusCore
-// Sendable = safe to pass across actor boundaries (required for Swift 6)
 public struct Meeting: Identifiable, Hashable, Sendable {
     public let id: String
     public let title: String

@@ -8,7 +8,6 @@
 import Foundation
 
 public protocol TranscriptionService: Sendable {
-
     // Ask the user for microphone + speech recognition permission
     func requestAuthorization() async throws
 
