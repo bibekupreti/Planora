@@ -15,7 +15,7 @@ public enum CalendarError: LocalizedError, Sendable {
     public var errorDescription: String? {
         switch self {
         case .authorizationDenied:
-            "Calendar access denied. Enable it in Settings → FocusRoom."
+            "Calendar access denied. Enable it in Settings → Planora."
         case .fetchFailed(let e):
             "Couldn't load meetings: \(e.localizedDescription)"
         case .eventKitUnavailable:
